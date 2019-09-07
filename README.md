@@ -14,7 +14,6 @@ EndSection
 Section "Device"
 	Identifier	"AMD"
 	Driver		"amdgpu"
-	BusID		"PCI:5:0:0"
 	Option		"DRI" "3"
 	Option		"VariableRefresh" "true"
 EndSection
@@ -35,3 +34,5 @@ Section	"ServerFlags"
 	Option		"IgnoreABI" "1"
 EndSection
 ```
+
+Remove 10-nvidia-drm-outputclass.conf (from /usr/share/X11/xorg.conf.d/) if the nvidia gpu is set as primary (it shouldn't).
