@@ -4,11 +4,11 @@
 [Apply gnox's boost workaround](https://bbs.archlinux.org/viewtopic.php?pid=1858966#p1858966)
 
 In short:
-*use bios version 207
-*use amd_microcode
-*disable boost (copy disable_boost.conf to /etc/tempfiles.d/)
-*blacklist usci_ccg
-*use nvidia power management rules (copy 80-nvidia-pm.rules to /etc/udev/rules.d/)
+* use bios version 207
+* use amd_microcode
+* disable boost (copy disable_boost.conf to /etc/tempfiles.d/)
+* blacklist usci_ccg
+* use nvidia power management rules (copy 80-nvidia-pm.rules to /etc/udev/rules.d/)
 
 ## AMD + NVIDIA using PRIME Render Offloading
 1. Install nvidia-beta (AUR), nvidia-utils-beta (AUR), and patched xorg-server.
