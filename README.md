@@ -63,3 +63,6 @@ makepkg -si
 
 For Ubuntu 18.04/19.04: get the patched xorg-server from this ppa:
 https://launchpad.net/~aplattner/+archive/ubuntu/ppa/
+
+# Additional Resources
+https://forum.manjaro.org/t/asus-rog-zephyrus-ga502du-installation-and-configuration-guide-updated-information-2-7-2020/118392
